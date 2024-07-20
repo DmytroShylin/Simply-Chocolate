@@ -860,7 +860,12 @@ li {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 12px;
+}
+
+.policy-link {
+  color: #fd9222;
+  text-decoration: underline;
+  padding: 4px;
 }
 
 .modal-check-text .modal-check-mark {
@@ -869,6 +874,7 @@ li {
   border-radius: 6px;
   border: 1px solid rgba(17, 17, 17, 0.14);
   transition: all 0.3s ease;
+  margin-right: 12px;
 }
 
 .modal-check:checked + .modal-check-text .modal-check-mark {
